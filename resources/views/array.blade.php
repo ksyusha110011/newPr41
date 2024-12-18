@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <img src="../img/logo.png" alt="logo">
+        <p>Главная</p>
+        <p>Массивы</p>
+    </header>
+    <main>
+        <p>Hello, {{ $title }}.</p>
+    </main>
+    <footer>
+        <p>©Ковалева Ксения Евгеньевна 2024</p>
+    </footer>
 </body>
 </html>
